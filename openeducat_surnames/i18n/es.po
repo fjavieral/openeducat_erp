@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* openeducat_surnames
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-29 08:01+0000\n"
+"PO-Revision-Date: 2021-11-29 08:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: openeducat_surnames
+#: model:ir.model.fields,field_description:openeducat_surnames.field_op_faculty__last_name
+#: model:ir.model.fields,field_description:openeducat_surnames.field_op_student__last_name
+#: model_terms:ir.ui.view,arch_db:openeducat_surnames.view_surnames_inherit_op_faculty_form
+#: model_terms:ir.ui.view,arch_db:openeducat_surnames.view_surnames_inherit_op_student_form
+msgid "Last Name"
+msgstr "Segundo Apellido"
+
+#. module: openeducat_surnames
+#: model:ir.model.fields,field_description:openeducat_surnames.field_op_faculty__middle_name
+#: model:ir.model.fields,field_description:openeducat_surnames.field_op_student__middle_name
+#: model_terms:ir.ui.view,arch_db:openeducat_surnames.view_surnames_inherit_op_faculty_form
+#: model_terms:ir.ui.view,arch_db:openeducat_surnames.view_surnames_inherit_op_student_form
+msgid "Middle Name"
+msgstr "Primer Apellido"

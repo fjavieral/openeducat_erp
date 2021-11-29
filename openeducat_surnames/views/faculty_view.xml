@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_surnames_inherit_op_faculty_form" model="ir.ui.view">
+            <field name="name">surnames.inherit.op.faculty.form</field>
+            <field name="model">op.faculty</field>
+            <field name="inherit_id" ref="openeducat_core.view_op_faculty_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='middle_name']" position="attributes">
+                    <attribute name="string">Middle Name</attribute>
+                    <attribute name="placeholder">Middle Name</attribute>
+                </xpath>
+                <xpath expr="//field[@name='last_name']" position="attributes">
+                    <attribute name="attrs">{'required':False}</attribute>
+                    <attribute name="string">Last Name</attribute>
+                    <attribute name="placeholder">Last Name</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
